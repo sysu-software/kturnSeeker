@@ -24,9 +24,9 @@ Usage:  kturnSeeker [options] --fa \<fasta file\><BR>
 
 Installation:<BR>
 ---------
-Download kturnSeeker-0.1.tar.gz from https://github.com/sysu-software/kturnSeeker/releases ; unpack it, and make:<BR>
-tar -xzvf kturnSeeker-0.1.tar.gz<BR>
-cd kturnSeeker-0.1<BR>
+Download kturnSeeker-1.0.tar.gz from https://github.com/sysu-software/kturnSeeker/releases ; unpack it, and make:<BR>
+tar -xzvf kturnSeeker-1.0.tar.gz<BR>
+cd kturnSeeker-1.0<BR>
 make<BR>
 
 System requirements:
