@@ -7,19 +7,19 @@ kturnSeeker is an software to identify novel forward Kink-turn RNAs (fktRNAs) an
 
 Usage:
 ---------
-Usage:  kturnSeeker [options] --fa <fasta file>
-[options]
--o/--output <file>     : output file
--v/--verbose           : verbose information
--V/--version           : kturnSeeker version
--h/--help              : help informations
--i/--min-dist          : minimum distance between two kturn elements[default=15]
--a/--max-dist          : maximum distance between two kturn elements[default=500]
--m/--min-score         : minimum score for C-stem pairs of kturn[default>=5]
--l/--min-len           : minimum length for C-stem pairs of kturn[default>=2]
--f/--nofw              : will not scan forward reference strand
--r/--norc              : will not scan reverse-complement reference strand
--s/--stringent         : output strigent for stem pairs of kturn
+Usage:  kturnSeeker [options] --fa <fasta file><BR>
+[options]<BR>
+-o/--output <file>     : output file<BR>
+-v/--verbose           : verbose information<BR>
+-V/--version           : kturnSeeker version<BR>
+-h/--help              : help informations<BR>
+-i/--min-dist          : minimum distance between two kturn elements[default=15]<BR>
+-a/--max-dist          : maximum distance between two kturn elements[default=500]<BR>
+-m/--min-score         : minimum score for C-stem pairs of kturn[default>=5]<BR>
+-l/--min-len           : minimum length for C-stem pairs of kturn[default>=2]<BR>
+-f/--nofw              : will not scan forward reference strand<BR>
+-r/--norc              : will not scan reverse-complement reference strand<BR>
+-s/--stringent         : output strigent for stem pairs of kturn<BR>
 
 
 Installation:<BR>
@@ -46,8 +46,8 @@ cd example;
 
 Output:
 ---------
-#seqName	start	end	kturnName	score	strand	kturnType	stemLen	seqLen	5pDist	3pDist	kturnSeq	orgSeq	stem1Seq	pairs	stem2Seq
-SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	stem1: 5'-AGTTTGCCATGATG\	pairs:    |||:|||   xx.| AAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCT	stem2: 3'-TCAGACG---AGTC/
+#seqName	start	end	kturnName	score	strand	kturnType	stemLen	seqLen	5pDist	3pDist	kturnSeq	orgSeq	stem1Seq	pairs	stem2Seq <BR>
+SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	stem1: 5'-AGTTTGCCATGATG\	pairs:    |||:|||   xx.| AAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCT	stem2: 3'-TCAGACG---AGTC/ <BR>
 
 Note: # is comment line<BR>
 
