@@ -7,7 +7,7 @@ kturnSeeker is an software to identify novel forward Kink-turn RNAs (fktRNAs) an
 
 Usage:
 ---------
-Usage:  kturnSeeker [options] --fa <fasta file><BR>
+Usage:  kturnSeeker [options] --fa \<fasta file\><BR>
 [options]<BR>
 -o/--output <file>     : output file<BR>
 -v/--verbose           : verbose information<BR>
