@@ -3,7 +3,7 @@ kturnSeeker: A computational software for identifying forward Kink-turn RNAs (fk
 
 Overview:
 ---------
-kturnSeeker is a software to identify novel forward Kink-turn RNAs (fktRNAs) and backward Kink-turn RNAs (bktRNAs) from fasta file identified from RIP-PEN-seq/PEN-seq/sub-PEN-seq or others small RNA-seq data.
+kturnSeeker is a software for identifying forward Kink-turn RNAs (fktRNAs) and backward Kink-turn RNAs (bktRNAs) from fasta file identified from RIP-PEN-seq/PEN-seq/sub-PEN-seq or others small RNA-seq data.
 
 Usage:
 ---------
@@ -50,7 +50,7 @@ Output:
 SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	stem1: 5'-AGTTTGCCATGATG\	pairs:    |||:|||   xx.| AAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCT	stem2: 3'-TCAGACG---AGTC/ <BR>
 
 Note: # is comment line and annotation line<BR>
-Note: You can paste these three columns (stem1Seq, pairs and stem2Seq) into three rows. And then you can find that they are composed of a Kink-turn structure. For example:
+<STRONG>Note:</STRONG> You can paste these three columns (stem1Seq, pairs and stem2Seq) into three rows. And then you can find that they are composed of a Kink-turn structure. For example:
 <pre><red>
 stem1: 5'-AGTTTGCCATGATG\
 pairs:    |||:|||   xx.| AAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCT
