@@ -50,34 +50,59 @@ Output:
 SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	stem1: 5'-AGTTTGCCATGATG\	pairs:    |||:|||   xx.| AAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCT	stem2: 3'-TCAGACG---AGTC/ <BR>
 
 <STRONG>Note: # is comment line and annotation line</STRONG><BR>
-<pre>
 <table>
 <tr>
-<td>seqName</td><td>Sequence name</td>
+<td><strong>Column Name</strong></td><td><strong>Sescription</strong></td>
 </tr>
 <tr>
 <td>seqName</td><td>Sequence name</td>
 </tr>
 <tr>
-<td>seqName</td><td>Sequence name</td>
+<td>start</td><td>Start position of K-turn structure in sequence.</td>
+</tr>
+<tr>
+<td>end</td><td>End position of K-turn structure in sequence.</td>
+</tr>
+<tr>
+<td>kturnName</td><td>Unique ID identification.</td>
+</tr>
+<tr>
+<td>score</td><td>C-stem score of K-turn structure.</td>
+</tr>
+<tr>
+<td>strand</td><td>The direction of the strand.</td>
+</tr>
+<tr>
+<td>kturnType</td><td>K-turn type (forward or backward).</td>
+</tr>
+<tr>
+<td>stemLen</td><td>The length of C-stem in K-trun structure.</td>
+</tr>
+<tr>
+<td>seqLen</td><td>The length of sequence.</td>
+</tr>
+<tr>
+<td>5pDist</td><td>The Distance between 5' motif and RNA 5' end.</td>
+</tr>
+<tr>
+<td>3pDist</td><td>The Distance between 3' motif and RNA 3' end.</td>
+</tr>
+<tr>
+<td>kturnSeq</td><td>The K-turn sequnce contained K-turn structure at ends of RNA.</td>
+</tr>
+<tr>
+<td>orgSeq</td><td>The original RNA sequence.</td>
+</tr>
+<tr>
+<td>stem1Seq</td><td>The sequence of stem1(C-stem or NC-stem) in K-turn.</td>
+</tr>
+<tr>
+<td>pairs</td><td>The base-pairing in K-turn structure and loop sequences.</td>
+</tr>
+<tr>
+<td>stem2Seq</td><td>The sequence of stem2 (C-stem or NC-stem) in K-turn.</td>
 </tr>
 </table>
-start       Start position of K-turn structure in sequence.
-end         End position of K-turn structure in sequence.
-kturnName	  Unique ID identification.
-score       C-stem score of K-turn structure.
-strand	     The direction of the strand.
-kturnType   K-turn type (forward or backward).
-stemLen	    The length of C-stem in K-trun structure.
-seqLen      The length of sequence.
-5pDist      The Distance between 5' motif and RNA 5' end.
-3pDist	     The Distance between 3' motif and RNA 3' end.
-orgSeq    	 The original RNA sequence.
-kturnSeq	   The K-turn sequnce contained K-turn structure at ends of RNA.
-stem1Seq	   The sequence of stem1(C-stem or NC-stem) in K-turn.
-pairs	      The base-pairing in K-turn structure and loop sequences.
-stem2Seq	   The sequence of stem2 (C-stem or NC-stem) in K-turn.
-</pre>
 <BR>
 <STRONG>Note: You can paste these three columns (stem1Seq, pairs and stem2Seq) in three different rows. And then you can find that they are composed of a Kink-turn structure. For example:</STRONG><br>
 forward kink-turn RNA<br>
