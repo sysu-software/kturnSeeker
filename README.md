@@ -66,12 +66,12 @@ Contact :
 *****************************************************************************************<BR>
  \*	kturnSeeker - A computational software for identifying Kink-turn RNAs.<BR>
  \*<BR>
- \*	Author : Jian-Hua Yang <yangjh7@mail.sysu.edu.cn><BR>
+ \*	Author : Jianhua Yang <yangjh7@mail.sysu.edu.cn><BR>
  \* <BR>
  \*	RNA Information Center, School of Life Sciences, Sun Yat-Sen University<BR>
  \*	<BR>
  \*  Create date: 11/18/2019<BR>
  \*  <BR>
- \*  last modified time: 09/01/2020<BR>
+ \*  last modified time: 04/10/2023<BR>
  ****************************************************************************************<BR>
 
