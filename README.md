@@ -51,9 +51,9 @@ SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAG
 
 <STRONG>Note: # is comment line and annotation line</STRONG><BR>
 <pre>
-seqName     Sequence name<BR>
-start       Start position of K-turn structure in sequence.
-end         End position of K-turn structure in sequence.
+seqName\tSequence name
+start\tStart position of K-turn structure in sequence.
+end\tEnd position of K-turn structure in sequence.
 kturnName	  Unique ID identification.
 score       C-stem score of K-turn structure.
 strand	     The direction of the strand.
