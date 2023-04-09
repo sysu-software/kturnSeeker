@@ -42,7 +42,7 @@ The input of kturnSeeker is a FASTA file<BR>
 run kturnSeeker:
 ---------
 cd example;
-./kturnSeeker -m 7 --fa  SNORD126.fa \>kturnSeeker_candidates.txt<BR>
+../kturnSeeker -m 7 --fa  SNORD126.fa \>kturnSeeker_candidates.txt<BR>
 
 Output:
 ---------
