@@ -52,7 +52,7 @@ SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAG
 <STRONG>Note: # is comment line and annotation line</STRONG><BR>
 <table>
 <tr>
-<td><strong>Column Name</strong></td><td><strong>Sescription</strong></td>
+<td><strong>Column Name</strong></td><td><strong>Description</strong></td>
 </tr>
 <tr>
 <td>seqName</td><td>Sequence name</td>
