@@ -52,21 +52,21 @@ SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAG
 <STRONG>Note: # is comment line and annotation line</STRONG><BR>
 <pre>
 seqName     Sequence name<BR>
-start       Start position of K-turn structure in sequence.<BR>
-end         End position of K-turn structure in sequence.<BR>
-kturnName	  Unique ID identification.<BR>
-score       C-stem score of K-turn structure.<BR>
-strand	     The direction of the strand.<BR>
-kturnType   K-turn type (forward or backward).<BR>
-stemLen	    The length of C-stem in K-trun structure.<BR>
-seqLen      The length of sequence.<BR>
-5pDist      The Distance between 5' motif and RNA 5' end.<BR>
-3pDist	     The Distance between 3' motif and RNA 3' end.<BR>
-orgSeq    	 The original RNA sequence.<BR>
-kturnSeq	   The K-turn sequnce contained K-turn structure at ends of RNA.<BR>
-stem1Seq	   The sequence of stem1(C-stem or NC-stem) in K-turn.<BR>
-pairs	      The base-pairing in K-turn structure and loop sequences.<BR>
-stem2Seq	   The sequence of stem2 (C-stem or NC-stem) in K-turn.<BR>
+start       Start position of K-turn structure in sequence.
+end         End position of K-turn structure in sequence.
+kturnName	  Unique ID identification.
+score       C-stem score of K-turn structure.
+strand	     The direction of the strand.
+kturnType   K-turn type (forward or backward).
+stemLen	    The length of C-stem in K-trun structure.
+seqLen      The length of sequence.
+5pDist      The Distance between 5' motif and RNA 5' end.
+3pDist	     The Distance between 3' motif and RNA 3' end.
+orgSeq    	 The original RNA sequence.
+kturnSeq	   The K-turn sequnce contained K-turn structure at ends of RNA.
+stem1Seq	   The sequence of stem1(C-stem or NC-stem) in K-turn.
+pairs	      The base-pairing in K-turn structure and loop sequences.
+stem2Seq	   The sequence of stem2 (C-stem or NC-stem) in K-turn.
 </pre>
 <BR>
 <STRONG>Note: You can paste these three columns (stem1Seq, pairs and stem2Seq) in three different rows. And then you can find that they are composed of a Kink-turn structure. For example:</STRONG><br>
