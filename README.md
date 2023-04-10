@@ -44,12 +44,13 @@ The input of kturnSeeker is a FASTA file<BR>
 run kturnSeeker:
 ---------
 cd example;
-../kturnSeeker -m 7 --fa  SNORD126.fa \>kturnSeeker_candidates.txt<BR>
+../kturnSeeker -m 7 --fa  bktRNA.fa \>kturnSeeker_candidates.txt<BR>
 
 Output:
 ---------
-#seqName	start	end	kturnName	score	strand	kturnType	stemLen	seqLen	5pDist	3pDist	kturnSeq	orgSeq	stem1Seq	pairs	stem2Seq <BR>
-SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	AGTTTGCCATGATGAAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCTCTGAGCAGACT	stem1: 5'-AGTTTGCCATGATG\	pairs:    |||:|||   xx.| AAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCT	stem2: 3'-TCAGACG---AGTC/ <BR>
+#seqName	start	end	kturnName	score	strand	kturnType	stemLen	seqLen	5pDist	3pDist	kturnSeq	orgSeq	stem1Seq	pairs	stem2Seq<BR>
+bktRNA1	4	33	backward_kturn-1	17	+	backward	6	35	4	2	CTGAGGGGTGTTTCTCCACCCCTGTGATG	TGTGCTGAGGGGTGTTTCTCCACCCCTGTGATGGA	stem1: 5'-CTGA---GGGGTG\	pairs:    |.xx   |||||| TTTCTC	stem2: 3'-GTAGTGTCCCCAC/<BR>
+bktRNA2	4	37	backward_kturn-2	8	+	backward	3	39	4	2	CTGAGACTTCCCATCCCTGAGATGTCCATGATG	CCCTCTGAGACTTCCCATCCCTGAGATGTCCATGATGAA	stem1: 5'-CTGA---GAC\	pairs:    |.xx   ||| TTCCCATCCCTGAGAT	stem2: 3'-GTAGTACCTG/<BR>
 
 <STRONG>Note: # is comment line and annotation line</STRONG><BR>
 <table>
@@ -107,6 +108,12 @@ SNORD126	0	77	forward_kturn-1	15	+	forward	7	77	0	0	AGTTTGCCATGATGAAATGCATGTTAAG
 </table>
 <BR>
 <STRONG>Note: You can paste these three columns (stem1Seq, pairs and stem2Seq) in three different rows. And then you can find that they are composed of a Kink-turn structure. For example:</STRONG><br>
+backward kink-turn RNA<br>
+<pre>
+stem1: 5'-CTGA---GCACAG\	
+pairs:    |.xx   |||||| AG	
+stem2: 3'-GTAGTGACGTGTC/
+</pre>
 forward kink-turn RNA<br>
 <pre>
 stem1: 5'-AGTTTGCCATGATG\
@@ -114,13 +121,6 @@ pairs:    |||:|||   xx.| AAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCT
 stem2: 3'-TCAGACG---AGTC/
 </pre>
 
-backward kink-turn RNA<br>
-<pre>
-stem1: 5'-CTGA---GCACAG\	
-pairs:    |.xx   |||||| AG	
-stem2: 3'-GTAGTGACGTGTC/
-</pre>
- 
 Acknowledgements:
 ---------
 Thanks a lot to everyone who contributed to the public codes used by kturnSeeker.<BR>
