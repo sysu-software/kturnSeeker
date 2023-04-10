@@ -22,7 +22,7 @@ Usage:  kturnSeeker [options] --fa \<fasta file\><BR>
 -l/--min-len           : minimum length for C-stem pairs of kturn[default>=2]<BR>
 
 <strong>Note:</strong> If the input sequence is an RNA, please use the option: --norc <BR>
-<strong>Note:</strong> Please use <strong>--strict</strong> option to reduce the false positives for discovering new bktRNAs (please see our Nature Biotechnology paper) or box C/D fktRNAs <BR>
+<strong>Note:</strong> Please use <strong>--strict</strong> option to reduce the false positives for discovering new bktRNAs described in our Nature Biotechnology paper or box C/D fktRNAs <BR>
  
 Installation:<BR>
 ---------
