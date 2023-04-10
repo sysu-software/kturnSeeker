@@ -107,7 +107,7 @@ bktRNA2	4	37	backward_kturn-2	8	+	backward	3	39	4	2	CTGAGACTTCCCATCCCTGAGATGTCCA
 </tr>
 </table>
 <BR>
-<STRONG>Note: You can paste these three columns (stem1Seq, pairs and stem2Seq) in three different rows. And then you can find that they are composed of a Kink-turn structure. For example:</STRONG><br>
+<STRONG>Note: You can paste these three columns (stem1Seq, pairs and stem2Seq) in three different rows. And then you can find that it is a Kink-turn structure. For example:</STRONG><br>
 backward kink-turn RNA<br>
 <pre>
 stem1: 5'-CTGA---GCACAG\	
