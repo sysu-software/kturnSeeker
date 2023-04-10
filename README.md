@@ -21,7 +21,7 @@ Usage:  kturnSeeker [options] --fa \<fasta file\><BR>
 -r/--norc              : will not scan reverse-complement reference strand<BR>
 -s/--stringent         : output strigent for stem pairs of kturn<BR>
 
-
+<strong>Note:</strong> If the input sequence is an RNA, please use the option: --norc <BR>
 Installation:<BR>
 ---------
 Download kturnSeeker-1.0.tar.gz from https://github.com/sysu-software/kturnSeeker/releases ; unpack it, and make:<BR>
