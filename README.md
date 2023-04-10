@@ -13,15 +13,17 @@ Usage:  kturnSeeker [options] --fa \<fasta file\><BR>
 -v/--verbose           : verbose information<BR>
 -V/--version           : kturnSeeker version<BR>
 -h/--help              : help informations<BR>
+-f/--nofw              : will not scan forward reference strand<BR>
+-r/--norc              : will not scan reverse-complement reference strand<BR>
+-s/--strict            : keep only the k-turn structure contains CUGA and UGAUG motifs<BR>
 -i/--min-dist          : minimum distance between two kturn elements[default=15]<BR>
 -a/--max-dist          : maximum distance between two kturn elements[default=500]<BR>
 -m/--min-score         : minimum score for C-stem pairs of kturn[default>=5]<BR>
 -l/--min-len           : minimum length for C-stem pairs of kturn[default>=2]<BR>
--f/--nofw              : will not scan forward reference strand<BR>
--r/--norc              : will not scan reverse-complement reference strand<BR>
--s/--stringent         : output strigent for stem pairs of kturn<BR>
 
 <strong>Note:</strong> If the input sequence is an RNA, please use the option: --norc <BR>
+<strong>Note:</strong> Please use <strong>--strict</strong> option to reduce the false positives for discovering our bktRNAs or box C/D fktRNAs <BR>
+ 
 Installation:<BR>
 ---------
 Download kturnSeeker-1.0.tar.gz from https://github.com/sysu-software/kturnSeeker/releases ; unpack it, and make:<BR>
