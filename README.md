@@ -121,6 +121,11 @@ pairs:    |||:|||   xx.| AAATGCATGTTAAGTCCGTGTTTCAGCTGATCAGCCTGATTAAACACATGCT
 stem2: 3'-TCAGACG---AGTC/
 </pre>
 
+Citing kturnSeeker:
+---------
+If you use kturnSeeker in your work, please cite:<BR>
+Li B, Liu S, Zheng W, Liu A, Yu P, Wu D, Zhou J, Zhang P, Liu C, Lin Q, Ye J, He S, Huang Q, Zhou H, Chen J, Qu L*, Yang J*. <strong>RIP-PEN-seq identifies a class of kink-turn RNAs as splicing regulators. Nat Biotechnol. </strong> 2023 Apr 10. https://www.nature.com/articles/s41587-023-01749-0 Epub ahead of print. [PMID: 37037902.](https://pubmed.ncbi.nlm.nih.gov/37037902/)
+
 Acknowledgements:
 ---------
 Thanks a lot to everyone who contributed to the public codes used by kturnSeeker.<BR>
